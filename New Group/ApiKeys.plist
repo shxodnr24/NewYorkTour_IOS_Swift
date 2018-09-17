@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>YELP_API_CLIENT_SECRET</key>
+	<string>bRPG2J3MvYrL7UmZpart9dcFSsruQfwQP_4LhmHZrVZPSroLDgizkGBDyiJbKT9KqlN41RB46LldHWMcPL-dlfgfLOJkGIYfc4MMM03UsR7GslhyGguS58zLNgmVWnYx</string>
+	<key>YELP_API_CLIENT_ID</key>
+	<string>7mYnvZAyTwz0w_wfppO1Mg</string>
+</dict>
+</plist>

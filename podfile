@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+target ‘NewYorkTour’ do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'Firebase/Messaging'
+  pod 'ObjectMapper', '~> 3.3'
+end
+

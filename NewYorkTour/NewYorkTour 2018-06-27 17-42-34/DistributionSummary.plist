@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NewYorkTour.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+				<key>dateExpires</key>
+				<string>2019. 6. 27.</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+						<key>dateExpires</key>
+						<string>2019. 6. 27.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AFNetworking.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>MAVM9UU3WG</string>
+						<key>name</key>
+						<string>Taewook Noh</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+						<key>dateExpires</key>
+						<string>2019. 6. 27.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>BDBOAuth1Manager.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>MAVM9UU3WG</string>
+						<key>name</key>
+						<string>Taewook Noh</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+						<key>dateExpires</key>
+						<string>2019. 6. 27.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleToolboxForMac.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>MAVM9UU3WG</string>
+						<key>name</key>
+						<string>Taewook Noh</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+						<key>dateExpires</key>
+						<string>2019. 6. 27.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>leveldb.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>MAVM9UU3WG</string>
+						<key>name</key>
+						<string>Taewook Noh</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4C8EFA0C0FA0D24BE87444F15801D74FAB8E8E75</string>
+						<key>dateExpires</key>
+						<string>2019. 6. 27.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>MAVM9UU3WG</string>
+						<key>name</key>
+						<string>Taewook Noh</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>MAVM9UU3WG.com.taewook.NewYorkTour</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>MAVM9UU3WG</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>MAVM9UU3WG.com.taewook.NewYorkTour</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>NewYorkTour.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f201fddb-4888-4d3c-b0ad-c8389bc5c12f</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.taewook.NewYorkTour</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>MAVM9UU3WG</string>
+				<key>name</key>
+				<string>Taewook Noh</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

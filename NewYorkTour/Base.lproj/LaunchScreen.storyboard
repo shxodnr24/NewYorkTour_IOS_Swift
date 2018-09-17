@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone X" translatesAutoresizingMaskIntoConstraints="NO" id="IMT-Kh-FzK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="647" id="ZES-gJ-fQA"/>
+                                    <constraint firstAttribute="width" constant="375" id="b91-Z0-pOa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App logo Ver2" translatesAutoresizingMaskIntoConstraints="NO" id="4wJ-bK-Giy">
+                                <rect key="frame" x="28" y="167" width="319" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="MMN-IL-24T"/>
+                                    <constraint firstAttribute="height" constant="136" id="Uw1-U9-Ux1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made By : Brian Noh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN1-E1-nnB">
+                                <rect key="frame" x="101" y="596" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dN1-E1-nnB" firstAttribute="top" secondItem="4wJ-bK-Giy" secondAttribute="bottom" constant="293" id="2ZA-PM-WMd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4wJ-bK-Giy" secondAttribute="trailing" constant="28" id="9RE-JA-ld0"/>
+                            <constraint firstItem="4wJ-bK-Giy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="147" id="Fqw-jh-DAV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dN1-E1-nnB" secondAttribute="bottom" constant="50" id="QHa-Fi-7OT"/>
+                            <constraint firstItem="IMT-Kh-FzK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TAq-QY-c6w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dN1-E1-nnB" secondAttribute="trailing" constant="101" id="Tbb-Uh-wWI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IMT-Kh-FzK" secondAttribute="bottom" id="WcK-CZ-c6T"/>
+                            <constraint firstItem="4wJ-bK-Giy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="ktA-pT-dRx"/>
+                            <constraint firstItem="IMT-Kh-FzK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pFo-4i-3VN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IMT-Kh-FzK" secondAttribute="trailing" id="w5F-kQ-Y3d"/>
+                            <constraint firstItem="dN1-E1-nnB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="y6o-d0-GdG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="App logo Ver2" width="942" height="426"/>
+        <image name="iPhone X" width="375" height="812"/>
+    </resources>
+</document>

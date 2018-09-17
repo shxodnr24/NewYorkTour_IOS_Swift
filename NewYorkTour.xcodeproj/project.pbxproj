@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A00C42E2691F2C0B8CECF40 /* Pods_NewYorkTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA1C065DCBBBB75F806185C /* Pods_NewYorkTour.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F000EC9C2105A79900AF9FF3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000EC9B2105A79900AF9FF3 /* Category.swift */; };
+		F000EC9E2105B53B00AF9FF3 /* MidtownRestaurantCate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000EC9D2105B53B00AF9FF3 /* MidtownRestaurantCate.swift */; };
+		F000ECA02105C3D200AF9FF3 /* UpperWestRestaurantCate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000EC9F2105C3D200AF9FF3 /* UpperWestRestaurantCate.swift */; };
+		F00176771FFF5FE00078C6C5 /* IMG_7497.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F00176761FFF5FE00078C6C5 /* IMG_7497.JPG */; };
+		F00176791FFF5FE80078C6C5 /* IMG_5022.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F00176781FFF5FE80078C6C5 /* IMG_5022.JPG */; };
+		F001767C1FFF64D60078C6C5 /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = F001767B1FFF64D60078C6C5 /* test01.png */; };
+		F001767E1FFF66040078C6C5 /* test02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F001767D1FFF66040078C6C5 /* test02.jpeg */; };
+		F005F26B20AABC3400DFE29C /* LowerManhattanNight.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F005F26A20AABC3400DFE29C /* LowerManhattanNight.JPG */; };
+		F005F26D20AABC8B00DFE29C /* MidtownNight.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F005F26C20AABC8B00DFE29C /* MidtownNight.JPG */; };
+		F00877332089C35300D57589 /* UpperEastTAdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00877322089C35300D57589 /* UpperEastTAdetail.swift */; };
+		F00877392089CB6500D57589 /* UpperEastTAdetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00877382089CB6500D57589 /* UpperEastTAdetailMap.swift */; };
+		F0121207209AEE0500E96739 /* UpperWestTaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0121206209AEE0500E96739 /* UpperWestTaDetail.swift */; };
+		F0121209209AEECE00E96739 /* TAnameInfoImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0121208209AEECE00E96739 /* TAnameInfoImageCell.swift */; };
+		F016EB7B20C521B00001C55D /* MidtownRestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016EB7A20C521B00001C55D /* MidtownRestaurantDetail.swift */; };
+		F016EB7D20C526530001C55D /* UpperWestRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016EB7C20C526530001C55D /* UpperWestRestaurant.swift */; };
+		F016EB7F20C527B20001C55D /* UpperWestRestaurantFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016EB7E20C527B20001C55D /* UpperWestRestaurantFilter.swift */; };
+		F01F157F1FF630EE00556EDB /* LowerManhattanFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F157E1FF630EE00556EDB /* LowerManhattanFirst.swift */; };
+		F02CE87A20A56610001F424F /* UpperwestTAurlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CE87920A56610001F424F /* UpperwestTAurlCell.swift */; };
+		F02F1A7120C122E200264ED3 /* TADetailNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1A7020C122E200264ED3 /* TADetailNameCell.swift */; };
+		F02F1A7320C127A200264ED3 /* TADetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1A7220C127A200264ED3 /* TADetailImageCell.swift */; };
+		F02F1A7520C127DF00264ED3 /* TADetailWebsiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1A7420C127DF00264ED3 /* TADetailWebsiteCell.swift */; };
+		F02F1A7720C127EF00264ED3 /* TADetailPhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1A7620C127EF00264ED3 /* TADetailPhoneCell.swift */; };
+		F02F1A7920C1281D00264ED3 /* TADetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F1A7820C1281D00264ED3 /* TADetailMapCell.swift */; };
+		F03C4F7520A1721700B8279D /* TAinfomap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C4F7420A1721700B8279D /* TAinfomap.swift */; };
+		F0441018204D2CB100B85436 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0441017204D2CB100B85436 /* BusinessCell.swift */; };
+		F04A7E632077530D00EC90E5 /* IMG_6512.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F04A7E622077530D00EC90E5 /* IMG_6512.JPG */; };
+		F05263B220623B4C00846EE7 /* MidtownTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05263B120623B4C00846EE7 /* MidtownTA.swift */; };
+		F05D54222074A8DF00F9E9E1 /* UpperEast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05D54212074A8DF00F9E9E1 /* UpperEast.storyboard */; };
+		F05D54242074A8FC00F9E9E1 /* UpperEastFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05D54232074A8FC00F9E9E1 /* UpperEastFirst.swift */; };
+		F05DAD9D20A97127003A3440 /* MidtownTADetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05DAD9C20A97127003A3440 /* MidtownTADetail2.swift */; };
+		F060405220FDCF8E00099B66 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060405120FDCF8E00099B66 /* UpdateChecker.swift */; };
+		F0633E5D20B70AF8000D78C4 /* TAinfomapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0633E5C20B70AF8000D78C4 /* TAinfomapData.swift */; };
+		F06467AD20BD364A00CA5415 /* LowerManhattanRestaurantDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06467AC20BD364A00CA5415 /* LowerManhattanRestaurantDetail2.swift */; };
+		F06726A1205FA47700A5502A /* MidtownStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06726A0205FA47700A5502A /* MidtownStoryboard.storyboard */; };
+		F06726A3205FA4B400A5502A /* MidtownFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06726A2205FA4B400A5502A /* MidtownFirst.swift */; };
+		F06726A5205FA5F100A5502A /* MidtownRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06726A4205FA5F100A5502A /* MidtownRestaurant.swift */; };
+		F067526B207359E0002AF280 /* AdminHeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067526A207359E0002AF280 /* AdminHeaderData.swift */; };
+		F067526D20735ABE002AF280 /* ExpandibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067526C20735ABE002AF280 /* ExpandibleHeader.swift */; };
+		F071DE7F2063964F00F4AF6D /* IMG_6650.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F071DE7E2063964F00F4AF6D /* IMG_6650.JPG */; };
+		F0728B432085D0C900AE22D2 /* ContainerVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0728B422085D0C900AE22D2 /* ContainerVC1.swift */; };
+		F0728B452085D55900AE22D2 /* ContainerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0728B442085D55900AE22D2 /* ContainerMain.swift */; };
+		F076A7CF206A25CD00654C8E /* MidtownTAcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076A7CE206A25CD00654C8E /* MidtownTAcell.swift */; };
+		F076A7D1206A269300654C8E /* MidtownTaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076A7D0206A269300654C8E /* MidtownTaData.swift */; };
+		F07746A220C67DB700C09B14 /* YelpAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07746A120C67DB700C09B14 /* YelpAnnotation.swift */; };
+		F07BB09A201B03BE0085C53F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F07BB099201B03BE0085C53F /* GoogleService-Info.plist */; };
+		F07D7F9C207C86040020FD09 /* FirstViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07D7F9B207C86040020FD09 /* FirstViewLayout.swift */; };
+		F07D7F9E207C913E0020FD09 /* MainFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07D7F9D207C913E0020FD09 /* MainFirst.swift */; };
+		F07D7FA2207CAB170020FD09 /* Uppereast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F07D7FA1207CAB160020FD09 /* Uppereast.jpg */; };
+		F07E679B20A42CDC007DDF80 /* UppperwestTADetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E679A20A42CDC007DDF80 /* UppperwestTADetailCell.swift */; };
+		F0812D33209D96AA003CC9FA /* TAnamecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0812D32209D96AA003CC9FA /* TAnamecell.swift */; };
+		F0860DC41FE646A8007A3B66 /* LowerManhattan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0860DC31FE646A8007A3B66 /* LowerManhattan.storyboard */; };
+		F08616B81FDFC117006E4B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08616B71FDFC117006E4B68 /* AppDelegate.swift */; };
+		F08616BA1FDFC117006E4B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08616B91FDFC117006E4B68 /* ViewController.swift */; };
+		F08616BD1FDFC117006E4B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08616BB1FDFC117006E4B68 /* Main.storyboard */; };
+		F08616BF1FDFC117006E4B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08616BE1FDFC117006E4B68 /* Assets.xcassets */; };
+		F08616C21FDFC117006E4B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08616C01FDFC117006E4B68 /* LaunchScreen.storyboard */; };
+		F08616CD1FDFC117006E4B68 /* NewYorkTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08616CC1FDFC117006E4B68 /* NewYorkTourTests.swift */; };
+		F08616D81FDFC117006E4B68 /* NewYorkTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08616D71FDFC117006E4B68 /* NewYorkTourUITests.swift */; };
+		F0870A3220A02F8100EEB6D9 /* TAinfocell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0870A3120A02F8100EEB6D9 /* TAinfocell.swift */; };
+		F090AA2F2043E6C0007D2B2C /* FoodSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = F090AA2E2043E6C0007D2B2C /* FoodSelected.swift */; };
+		F09344402101C67700D86B64 /* Yelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093443F2101C67700D86B64 /* Yelp.swift */; };
+		F09344422101CA0700D86B64 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09344412101CA0700D86B64 /* ApiKeys.swift */; };
+		F09344442101CA2F00D86B64 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09344432101CA2F00D86B64 /* ApiKeys.plist */; };
+		F093444A2101CD0700D86B64 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09344492101CD0700D86B64 /* Location.swift */; };
+		F093444C2101CD2E00D86B64 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093444B2101CD2E00D86B64 /* Review.swift */; };
+		F093444E2101CD4800D86B64 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093444D2101CD4800D86B64 /* User.swift */; };
+		F093F0CA204A8ACA00FF085A /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093F0C9204A8ACA00FF085A /* Business.swift */; };
+		F0A4570720AD6BC100487ABD /* LowerManhattanTa2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4570620AD6BC100487ABD /* LowerManhattanTa2.swift */; };
+		F0A4570920AD6D2200487ABD /* LowerManhattanTaCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A4570820AD6D2200487ABD /* LowerManhattanTaCell2.swift */; };
+		F0A8FB8720F74A1800B85CE9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A8FB8620F74A1800B85CE9 /* UserNotifications.framework */; };
+		F0A92B6B20872F1E00EF80A1 /* UpperEastTouristAttractionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A92B6A20872F1E00EF80A1 /* UpperEastTouristAttractionCell.swift */; };
+		F0A92B6D20872F8400EF80A1 /* UpperEastTouristAttractionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A92B6C20872F8400EF80A1 /* UpperEastTouristAttractionData.swift */; };
+		F0AB1D5320AC0BE30027DE38 /* TAinfoOpeningHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB1D5220AC0BE30027DE38 /* TAinfoOpeningHour.swift */; };
+		F0AC991C1FDFCB650089092F /* Mindtown.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC991B1FDFCB650089092F /* Mindtown.swift */; };
+		F0ADDB64214F852B005C056F /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ADDB63214F852B005C056F /* GetWeather.swift */; };
+		F0B76A2520809DE400D30031 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B76A2420809DE400D30031 /* ContainerVC.swift */; };
+		F0B76A272080A1A500D30031 /* Midtown.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B76A262080A1A500D30031 /* Midtown.png */; };
+		F0B76A292080A1AA00D30031 /* LowerManhattan.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B76A282080A1AA00D30031 /* LowerManhattan.png */; };
+		F0B9960020887F3B00D94361 /* UpperEastRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B995FF20887F3B00D94361 /* UpperEastRestaurant.swift */; };
+		F0B996022088805100D94361 /* UpperEastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B996012088805100D94361 /* UpperEastCell.swift */; };
+		F0BC3B32214BA2B700AA7034 /* WeatherCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC3B31214BA2B700AA7034 /* WeatherCheckVC.swift */; };
+		F0BCFF3020C52E9F000E6FFF /* UpperWestRestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BCFF2F20C52E9F000E6FFF /* UpperWestRestaurantDetail.swift */; };
+		F0C0079220B7F5150020DC69 /* LowerManhattanTaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0079120B7F5150020DC69 /* LowerManhattanTaDetail.swift */; };
+		F0C0D3E12057BB9A00E93930 /* SwithCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0D3E02057BB9A00E93930 /* SwithCell.swift */; };
+		F0CCA51E207DDCEC0092DB28 /* UpperWest.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CCA51D207DDCEC0092DB28 /* UpperWest.png */; };
+		F0CCA526207DE32D0092DB28 /* UpperEastTouristAttraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCA525207DE32D0092DB28 /* UpperEastTouristAttraction.swift */; };
+		F0D10DB520BE825D00A1333F /* GooglePlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D10DB420BE825D00A1333F /* GooglePlaceCell.swift */; };
+		F0DF70CF20F796DF0028EC14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0DF70CE20F796DF0028EC14 /* GoogleService-Info.plist */; };
+		F0E2B9ED20C65BC700240324 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B9EC20C65BC700240324 /* MainViewController.swift */; };
+		F0E2B9EF20C65E3700240324 /* CheckNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B9EE20C65E3700240324 /* CheckNetwork.swift */; };
+		F0E2B9F120C664E300240324 /* UpperEastRestaurantDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B9F020C664E300240324 /* UpperEastRestaurantDetail2.swift */; };
+		F0EFAAFD206E13DD005C0271 /* UpperWest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EFAAFC206E13DD005C0271 /* UpperWest.storyboard */; };
+		F0EFAB01206E145A005C0271 /* UpperWestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFAB00206E145A005C0271 /* UpperWestFirst.swift */; };
+		F0EFAB03206E16C5005C0271 /* UpperwestTaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFAB02206E16C5005C0271 /* UpperwestTaCell.swift */; };
+		F0EFAB05206E16E8005C0271 /* UpperwestTa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFAB04206E16E8005C0271 /* UpperwestTa.swift */; };
+		F0EFAB07206E1817005C0271 /* UpperwestTaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFAB06206E1817005C0271 /* UpperwestTaData.swift */; };
+		F0F78C1F2106FCB20061FCF2 /* UpperEastRestaurantCate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F78C1E2106FCB20061FCF2 /* UpperEastRestaurantCate.swift */; };
+		F0F78C212107048C0061FCF2 /* LowerManhattanRestaurantCate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F78C202107048C0061FCF2 /* LowerManhattanRestaurantCate.swift */; };
+		F0FA220020BBDC2C001E30DB /* LowerManhattanRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA21FF20BBDC2C001E30DB /* LowerManhattanRestaurant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08616C91FDFC117006E4B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08616AC1FDFC117006E4B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08616B31FDFC117006E4B68;
+			remoteInfo = NewYorkTour;
+		};
+		F08616D41FDFC117006E4B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08616AC1FDFC117006E4B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08616B31FDFC117006E4B68;
+			remoteInfo = NewYorkTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA1C065DCBBBB75F806185C /* Pods_NewYorkTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYorkTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EDC1E2C0CDF66C93A238DE /* Pods-NewYorkTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour.release.xcconfig"; sourceTree = "<group>"; };
+		F000EC9B2105A79900AF9FF3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F000EC9D2105B53B00AF9FF3 /* MidtownRestaurantCate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownRestaurantCate.swift; sourceTree = "<group>"; };
+		F000EC9F2105C3D200AF9FF3 /* UpperWestRestaurantCate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestRestaurantCate.swift; sourceTree = "<group>"; };
+		F00176761FFF5FE00078C6C5 /* IMG_7497.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7497.JPG; sourceTree = "<group>"; };
+		F00176781FFF5FE80078C6C5 /* IMG_5022.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5022.JPG; sourceTree = "<group>"; };
+		F001767B1FFF64D60078C6C5 /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test01.png; path = ../../../../../Downloads/test01.png; sourceTree = "<group>"; };
+		F001767D1FFF66040078C6C5 /* test02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test02.jpeg; path = ../../../../../Downloads/test02.jpeg; sourceTree = "<group>"; };
+		F005F26A20AABC3400DFE29C /* LowerManhattanNight.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LowerManhattanNight.JPG; sourceTree = "<group>"; };
+		F005F26C20AABC8B00DFE29C /* MidtownNight.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MidtownNight.JPG; sourceTree = "<group>"; };
+		F00877322089C35300D57589 /* UpperEastTAdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastTAdetail.swift; sourceTree = "<group>"; };
+		F00877382089CB6500D57589 /* UpperEastTAdetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastTAdetailMap.swift; sourceTree = "<group>"; };
+		F0121206209AEE0500E96739 /* UpperWestTaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestTaDetail.swift; sourceTree = "<group>"; };
+		F0121208209AEECE00E96739 /* TAnameInfoImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAnameInfoImageCell.swift; sourceTree = "<group>"; };
+		F016EB7A20C521B00001C55D /* MidtownRestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownRestaurantDetail.swift; sourceTree = "<group>"; };
+		F016EB7C20C526530001C55D /* UpperWestRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestRestaurant.swift; sourceTree = "<group>"; };
+		F016EB7E20C527B20001C55D /* UpperWestRestaurantFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestRestaurantFilter.swift; sourceTree = "<group>"; };
+		F01F157E1FF630EE00556EDB /* LowerManhattanFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanFirst.swift; sourceTree = "<group>"; };
+		F02CE87920A56610001F424F /* UpperwestTAurlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperwestTAurlCell.swift; sourceTree = "<group>"; };
+		F02F1A7020C122E200264ED3 /* TADetailNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADetailNameCell.swift; sourceTree = "<group>"; };
+		F02F1A7220C127A200264ED3 /* TADetailImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADetailImageCell.swift; sourceTree = "<group>"; };
+		F02F1A7420C127DF00264ED3 /* TADetailWebsiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADetailWebsiteCell.swift; sourceTree = "<group>"; };
+		F02F1A7620C127EF00264ED3 /* TADetailPhoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADetailPhoneCell.swift; sourceTree = "<group>"; };
+		F02F1A7820C1281D00264ED3 /* TADetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADetailMapCell.swift; sourceTree = "<group>"; };
+		F03C4F7420A1721700B8279D /* TAinfomap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAinfomap.swift; sourceTree = "<group>"; };
+		F0441017204D2CB100B85436 /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		F04A7E622077530D00EC90E5 /* IMG_6512.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6512.JPG; path = ../../../../../Downloads/IMG_6512.JPG; sourceTree = "<group>"; };
+		F05263B120623B4C00846EE7 /* MidtownTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownTA.swift; sourceTree = "<group>"; };
+		F05D54212074A8DF00F9E9E1 /* UpperEast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpperEast.storyboard; sourceTree = "<group>"; };
+		F05D54232074A8FC00F9E9E1 /* UpperEastFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastFirst.swift; sourceTree = "<group>"; };
+		F05DAD9C20A97127003A3440 /* MidtownTADetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownTADetail2.swift; sourceTree = "<group>"; };
+		F060405120FDCF8E00099B66 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		F0633E5C20B70AF8000D78C4 /* TAinfomapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAinfomapData.swift; sourceTree = "<group>"; };
+		F06467AC20BD364A00CA5415 /* LowerManhattanRestaurantDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanRestaurantDetail2.swift; sourceTree = "<group>"; };
+		F06726A0205FA47700A5502A /* MidtownStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MidtownStoryboard.storyboard; sourceTree = "<group>"; };
+		F06726A2205FA4B400A5502A /* MidtownFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownFirst.swift; sourceTree = "<group>"; };
+		F06726A4205FA5F100A5502A /* MidtownRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownRestaurant.swift; sourceTree = "<group>"; };
+		F067526A207359E0002AF280 /* AdminHeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHeaderData.swift; sourceTree = "<group>"; };
+		F067526C20735ABE002AF280 /* ExpandibleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandibleHeader.swift; sourceTree = "<group>"; };
+		F071DE7E2063964F00F4AF6D /* IMG_6650.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6650.JPG; path = ../../../../Downloads/IMG_6650.JPG; sourceTree = "<group>"; };
+		F0728B422085D0C900AE22D2 /* ContainerVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC1.swift; sourceTree = "<group>"; };
+		F0728B442085D55900AE22D2 /* ContainerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMain.swift; sourceTree = "<group>"; };
+		F076A7CE206A25CD00654C8E /* MidtownTAcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownTAcell.swift; sourceTree = "<group>"; };
+		F076A7D0206A269300654C8E /* MidtownTaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtownTaData.swift; sourceTree = "<group>"; };
+		F07746A120C67DB700C09B14 /* YelpAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAnnotation.swift; sourceTree = "<group>"; };
+		F07BB099201B03BE0085C53F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F07D7F9B207C86040020FD09 /* FirstViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewLayout.swift; sourceTree = "<group>"; };
+		F07D7F9D207C913E0020FD09 /* MainFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFirst.swift; sourceTree = "<group>"; };
+		F07D7FA1207CAB160020FD09 /* Uppereast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uppereast.jpg; sourceTree = "<group>"; };
+		F07E679A20A42CDC007DDF80 /* UppperwestTADetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppperwestTADetailCell.swift; sourceTree = "<group>"; };
+		F0812D32209D96AA003CC9FA /* TAnamecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAnamecell.swift; sourceTree = "<group>"; };
+		F0860DC31FE646A8007A3B66 /* LowerManhattan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LowerManhattan.storyboard; sourceTree = "<group>"; };
+		F08616B41FDFC117006E4B68 /* NewYorkTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYorkTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08616B71FDFC117006E4B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F08616B91FDFC117006E4B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F08616BC1FDFC117006E4B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F08616BE1FDFC117006E4B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F08616C11FDFC117006E4B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F08616C31FDFC117006E4B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08616C81FDFC117006E4B68 /* NewYorkTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewYorkTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08616CC1FDFC117006E4B68 /* NewYorkTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkTourTests.swift; sourceTree = "<group>"; };
+		F08616CE1FDFC117006E4B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08616D31FDFC117006E4B68 /* NewYorkTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewYorkTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08616D71FDFC117006E4B68 /* NewYorkTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkTourUITests.swift; sourceTree = "<group>"; };
+		F08616D91FDFC117006E4B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0870A3120A02F8100EEB6D9 /* TAinfocell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAinfocell.swift; sourceTree = "<group>"; };
+		F090AA2E2043E6C0007D2B2C /* FoodSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSelected.swift; sourceTree = "<group>"; };
+		F093443F2101C67700D86B64 /* Yelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp.swift; sourceTree = "<group>"; };
+		F09344412101CA0700D86B64 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		F09344432101CA2F00D86B64 /* ApiKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		F09344492101CD0700D86B64 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F093444B2101CD2E00D86B64 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		F093444D2101CD4800D86B64 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F093F0C9204A8ACA00FF085A /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		F0A4570620AD6BC100487ABD /* LowerManhattanTa2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanTa2.swift; sourceTree = "<group>"; };
+		F0A4570820AD6D2200487ABD /* LowerManhattanTaCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanTaCell2.swift; sourceTree = "<group>"; };
+		F0A8FB8620F74A1800B85CE9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F0A92B6A20872F1E00EF80A1 /* UpperEastTouristAttractionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastTouristAttractionCell.swift; sourceTree = "<group>"; };
+		F0A92B6C20872F8400EF80A1 /* UpperEastTouristAttractionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastTouristAttractionData.swift; sourceTree = "<group>"; };
+		F0AB1D5220AC0BE30027DE38 /* TAinfoOpeningHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAinfoOpeningHour.swift; sourceTree = "<group>"; };
+		F0AC991B1FDFCB650089092F /* Mindtown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindtown.swift; sourceTree = "<group>"; };
+		F0ADDB63214F852B005C056F /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
+		F0B76A2420809DE400D30031 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		F0B76A262080A1A500D30031 /* Midtown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Midtown.png; path = "../../../../photo기타/Midtown.png"; sourceTree = "<group>"; };
+		F0B76A282080A1AA00D30031 /* LowerManhattan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LowerManhattan.png; path = "../../../../photo기타/LowerManhattan.png"; sourceTree = "<group>"; };
+		F0B787DB20468F4300030368 /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B787DD204692F000030368 /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B995FF20887F3B00D94361 /* UpperEastRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastRestaurant.swift; sourceTree = "<group>"; };
+		F0B996012088805100D94361 /* UpperEastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastCell.swift; sourceTree = "<group>"; };
+		F0BC3B31214BA2B700AA7034 /* WeatherCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCheckVC.swift; sourceTree = "<group>"; };
+		F0BCFF2F20C52E9F000E6FFF /* UpperWestRestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestRestaurantDetail.swift; sourceTree = "<group>"; };
+		F0C0079120B7F5150020DC69 /* LowerManhattanTaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanTaDetail.swift; sourceTree = "<group>"; };
+		F0C0D3E02057BB9A00E93930 /* SwithCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwithCell.swift; sourceTree = "<group>"; };
+		F0CCA51D207DDCEC0092DB28 /* UpperWest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpperWest.png; sourceTree = "<group>"; };
+		F0CCA525207DE32D0092DB28 /* UpperEastTouristAttraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastTouristAttraction.swift; sourceTree = "<group>"; };
+		F0D10DB420BE825D00A1333F /* GooglePlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceCell.swift; sourceTree = "<group>"; };
+		F0DF70CE20F796DF0028EC14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0DF70D020F79A240028EC14 /* NewYorkTour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NewYorkTour.entitlements; path = ../../../../.Trash/NewYorkTour.entitlements; sourceTree = "<group>"; };
+		F0E2B9EC20C65BC700240324 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F0E2B9EE20C65E3700240324 /* CheckNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNetwork.swift; sourceTree = "<group>"; };
+		F0E2B9F020C664E300240324 /* UpperEastRestaurantDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastRestaurantDetail2.swift; sourceTree = "<group>"; };
+		F0EFAAFC206E13DD005C0271 /* UpperWest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpperWest.storyboard; sourceTree = "<group>"; };
+		F0EFAB00206E145A005C0271 /* UpperWestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperWestFirst.swift; sourceTree = "<group>"; };
+		F0EFAB02206E16C5005C0271 /* UpperwestTaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperwestTaCell.swift; sourceTree = "<group>"; };
+		F0EFAB04206E16E8005C0271 /* UpperwestTa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperwestTa.swift; sourceTree = "<group>"; };
+		F0EFAB06206E1817005C0271 /* UpperwestTaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperwestTaData.swift; sourceTree = "<group>"; };
+		F0F78C1E2106FCB20061FCF2 /* UpperEastRestaurantCate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperEastRestaurantCate.swift; sourceTree = "<group>"; };
+		F0F78C202107048C0061FCF2 /* LowerManhattanRestaurantCate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanRestaurantCate.swift; sourceTree = "<group>"; };
+		F0FA21FF20BBDC2C001E30DB /* LowerManhattanRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerManhattanRestaurant.swift; sourceTree = "<group>"; };
+		F6FDA1C8F48EF5E1E82DD9AD /* Pods-NewYorkTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08616B11FDFC117006E4B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A8FB8720F74A1800B85CE9 /* UserNotifications.framework in Frameworks */,
+				2A00C42E2691F2C0B8CECF40 /* Pods_NewYorkTour.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616C51FDFC117006E4B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616D01FDFC117006E4B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E7AF1FB4BE00A07A58E2B6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6FDA1C8F48EF5E1E82DD9AD /* Pods-NewYorkTour.debug.xcconfig */,
+				54EDC1E2C0CDF66C93A238DE /* Pods-NewYorkTour.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1D4D6DCE7AE42EB63A4205C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8FB8620F74A1800B85CE9 /* UserNotifications.framework */,
+				F0B787DD204692F000030368 /* YelpAPI.framework */,
+				F0B787DB20468F4300030368 /* YelpAPI.framework */,
+				0EA1C065DCBBBB75F806185C /* Pods_NewYorkTour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F001767A1FFF643C0078C6C5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F04A7E622077530D00EC90E5 /* IMG_6512.JPG */,
+				F005F26A20AABC3400DFE29C /* LowerManhattanNight.JPG */,
+				F005F26C20AABC8B00DFE29C /* MidtownNight.JPG */,
+				F0B76A262080A1A500D30031 /* Midtown.png */,
+				F0B76A282080A1AA00D30031 /* LowerManhattan.png */,
+				F001767D1FFF66040078C6C5 /* test02.jpeg */,
+				F001767B1FFF64D60078C6C5 /* test01.png */,
+				F00176761FFF5FE00078C6C5 /* IMG_7497.JPG */,
+				F00176781FFF5FE80078C6C5 /* IMG_5022.JPG */,
+				F07D7FA1207CAB160020FD09 /* Uppereast.jpg */,
+				F0CCA51D207DDCEC0092DB28 /* UpperWest.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F0121205209AEC9500E96739 /* TAtableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0121208209AEECE00E96739 /* TAnameInfoImageCell.swift */,
+				F0812D32209D96AA003CC9FA /* TAnamecell.swift */,
+				F0870A3120A02F8100EEB6D9 /* TAinfocell.swift */,
+				F03C4F7420A1721700B8279D /* TAinfomap.swift */,
+				F07E679A20A42CDC007DDF80 /* UppperwestTADetailCell.swift */,
+				F02CE87920A56610001F424F /* UpperwestTAurlCell.swift */,
+				F0AB1D5220AC0BE30027DE38 /* TAinfoOpeningHour.swift */,
+				F0633E5C20B70AF8000D78C4 /* TAinfomapData.swift */,
+				F0D10DB420BE825D00A1333F /* GooglePlaceCell.swift */,
+			);
+			path = TAtableViewCell;
+			sourceTree = "<group>";
+		};
+		F0441016204D2C8A00B85436 /* yelp */ = {
+			isa = PBXGroup;
+			children = (
+				F0441017204D2CB100B85436 /* BusinessCell.swift */,
+				F0C0D3E02057BB9A00E93930 /* SwithCell.swift */,
+				F093F0C9204A8ACA00FF085A /* Business.swift */,
+				F093443F2101C67700D86B64 /* Yelp.swift */,
+				F09344412101CA0700D86B64 /* ApiKeys.swift */,
+				F09344432101CA2F00D86B64 /* ApiKeys.plist */,
+				F09344492101CD0700D86B64 /* Location.swift */,
+				F093444B2101CD2E00D86B64 /* Review.swift */,
+				F093444D2101CD4800D86B64 /* User.swift */,
+				F000EC9B2105A79900AF9FF3 /* Category.swift */,
+			);
+			name = yelp;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F05D54202074A8CC00F9E9E1 /* UpperEast */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B9F520C6699300240324 /* Restaurant */,
+				F0E2B9F220C6685D00240324 /* TA */,
+				F05D54232074A8FC00F9E9E1 /* UpperEastFirst.swift */,
+				F0B996012088805100D94361 /* UpperEastCell.swift */,
+				F00877382089CB6500D57589 /* UpperEastTAdetailMap.swift */,
+			);
+			path = UpperEast;
+			sourceTree = "<group>";
+		};
+		F063FF3C20BFDDC9004D8044 /* GoogleMapDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				F02F1A7020C122E200264ED3 /* TADetailNameCell.swift */,
+				F02F1A7220C127A200264ED3 /* TADetailImageCell.swift */,
+				F02F1A7420C127DF00264ED3 /* TADetailWebsiteCell.swift */,
+				F02F1A7620C127EF00264ED3 /* TADetailPhoneCell.swift */,
+				F02F1A7820C1281D00264ED3 /* TADetailMapCell.swift */,
+			);
+			path = GoogleMapDetailCell;
+			sourceTree = "<group>";
+		};
+		F067269F205FA44000A5502A /* midtown */ = {
+			isa = PBXGroup;
+			children = (
+				F0F78C2321070F320061FCF2 /* Restaurant */,
+				F0F78C2221070EA60061FCF2 /* TA */,
+				F0675269207359CA002AF280 /* TableViewData */,
+				F06726A0205FA47700A5502A /* MidtownStoryboard.storyboard */,
+				F06726A2205FA4B400A5502A /* MidtownFirst.swift */,
+			);
+			path = midtown;
+			sourceTree = "<group>";
+		};
+		F0675269207359CA002AF280 /* TableViewData */ = {
+			isa = PBXGroup;
+			children = (
+				F067526A207359E0002AF280 /* AdminHeaderData.swift */,
+				F067526C20735ABE002AF280 /* ExpandibleHeader.swift */,
+			);
+			path = TableViewData;
+			sourceTree = "<group>";
+		};
+		F077469E20C677F900C09B14 /* TA */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4570620AD6BC100487ABD /* LowerManhattanTa2.swift */,
+				F0A4570820AD6D2200487ABD /* LowerManhattanTaCell2.swift */,
+				F0C0079120B7F5150020DC69 /* LowerManhattanTaDetail.swift */,
+			);
+			path = TA;
+			sourceTree = "<group>";
+		};
+		F077469F20C6785E00C09B14 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				F06467AC20BD364A00CA5415 /* LowerManhattanRestaurantDetail2.swift */,
+				F0FA21FF20BBDC2C001E30DB /* LowerManhattanRestaurant.swift */,
+				F0F78C202107048C0061FCF2 /* LowerManhattanRestaurantCate.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		F08616AB1FDFC117006E4B68 = {
+			isa = PBXGroup;
+			children = (
+				F05D54202074A8CC00F9E9E1 /* UpperEast */,
+				F0EFAAFB206E13C3005C0271 /* upperwest */,
+				F067269F205FA44000A5502A /* midtown */,
+				F0441016204D2C8A00B85436 /* yelp */,
+				F0D4BBA01FE797D600ECBE3B /* Lower Mahnattan */,
+				F08616B61FDFC117006E4B68 /* NewYorkTour */,
+				F08616CB1FDFC117006E4B68 /* NewYorkTourTests */,
+				F08616D61FDFC117006E4B68 /* NewYorkTourUITests */,
+				F08616B51FDFC117006E4B68 /* Products */,
+				4E7AF1FB4BE00A07A58E2B6A /* Pods */,
+				E1D4D6DCE7AE42EB63A4205C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F08616B51FDFC117006E4B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08616B41FDFC117006E4B68 /* NewYorkTour.app */,
+				F08616C81FDFC117006E4B68 /* NewYorkTourTests.xctest */,
+				F08616D31FDFC117006E4B68 /* NewYorkTourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08616B61FDFC117006E4B68 /* NewYorkTour */ = {
+			isa = PBXGroup;
+			children = (
+				F0ADDB62214F8517005C056F /* Getweather */,
+				F0DF70D020F79A240028EC14 /* NewYorkTour.entitlements */,
+				F071DE7E2063964F00F4AF6D /* IMG_6650.JPG */,
+				F08616B71FDFC117006E4B68 /* AppDelegate.swift */,
+				F08616B91FDFC117006E4B68 /* ViewController.swift */,
+				F0AC991B1FDFCB650089092F /* Mindtown.swift */,
+				F08616BB1FDFC117006E4B68 /* Main.storyboard */,
+				F08616BE1FDFC117006E4B68 /* Assets.xcassets */,
+				F08616C01FDFC117006E4B68 /* LaunchScreen.storyboard */,
+				F08616C31FDFC117006E4B68 /* Info.plist */,
+				F090AA2E2043E6C0007D2B2C /* FoodSelected.swift */,
+				F07D7F9B207C86040020FD09 /* FirstViewLayout.swift */,
+				F07D7F9D207C913E0020FD09 /* MainFirst.swift */,
+				F0B76A2420809DE400D30031 /* ContainerVC.swift */,
+				F0728B422085D0C900AE22D2 /* ContainerVC1.swift */,
+				F0728B442085D55900AE22D2 /* ContainerMain.swift */,
+				F0E2B9EC20C65BC700240324 /* MainViewController.swift */,
+				F0E2B9EE20C65E3700240324 /* CheckNetwork.swift */,
+				F0DF70CE20F796DF0028EC14 /* GoogleService-Info.plist */,
+				F07746A120C67DB700C09B14 /* YelpAnnotation.swift */,
+				F060405120FDCF8E00099B66 /* UpdateChecker.swift */,
+				F0BC3B31214BA2B700AA7034 /* WeatherCheckVC.swift */,
+			);
+			path = NewYorkTour;
+			sourceTree = "<group>";
+		};
+		F08616CB1FDFC117006E4B68 /* NewYorkTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				F08616CC1FDFC117006E4B68 /* NewYorkTourTests.swift */,
+				F08616CE1FDFC117006E4B68 /* Info.plist */,
+			);
+			path = NewYorkTourTests;
+			sourceTree = "<group>";
+		};
+		F08616D61FDFC117006E4B68 /* NewYorkTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08616D71FDFC117006E4B68 /* NewYorkTourUITests.swift */,
+				F08616D91FDFC117006E4B68 /* Info.plist */,
+			);
+			path = NewYorkTourUITests;
+			sourceTree = "<group>";
+		};
+		F0ADDB62214F8517005C056F /* Getweather */ = {
+			isa = PBXGroup;
+			children = (
+				F0ADDB63214F852B005C056F /* GetWeather.swift */,
+			);
+			path = Getweather;
+			sourceTree = "<group>";
+		};
+		F0D4BBA01FE797D600ECBE3B /* Lower Mahnattan */ = {
+			isa = PBXGroup;
+			children = (
+				F077469F20C6785E00C09B14 /* Restaurant */,
+				F077469E20C677F900C09B14 /* TA */,
+				F07BB099201B03BE0085C53F /* GoogleService-Info.plist */,
+				F001767A1FFF643C0078C6C5 /* Image */,
+				F0860DC31FE646A8007A3B66 /* LowerManhattan.storyboard */,
+				F01F157E1FF630EE00556EDB /* LowerManhattanFirst.swift */,
+			);
+			path = "Lower Mahnattan";
+			sourceTree = "<group>";
+		};
+		F0E2B9F220C6685D00240324 /* TA */ = {
+			isa = PBXGroup;
+			children = (
+				F0CCA525207DE32D0092DB28 /* UpperEastTouristAttraction.swift */,
+				F0A92B6A20872F1E00EF80A1 /* UpperEastTouristAttractionCell.swift */,
+				F0A92B6C20872F8400EF80A1 /* UpperEastTouristAttractionData.swift */,
+				F00877322089C35300D57589 /* UpperEastTAdetail.swift */,
+				F05D54212074A8DF00F9E9E1 /* UpperEast.storyboard */,
+			);
+			path = TA;
+			sourceTree = "<group>";
+		};
+		F0E2B9F320C6687F00240324 /* TA */ = {
+			isa = PBXGroup;
+			children = (
+				F0EFAB06206E1817005C0271 /* UpperwestTaData.swift */,
+				F0EFAB04206E16E8005C0271 /* UpperwestTa.swift */,
+				F0EFAB02206E16C5005C0271 /* UpperwestTaCell.swift */,
+				F0121206209AEE0500E96739 /* UpperWestTaDetail.swift */,
+			);
+			path = TA;
+			sourceTree = "<group>";
+		};
+		F0E2B9F420C6696900240324 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				F0BCFF2F20C52E9F000E6FFF /* UpperWestRestaurantDetail.swift */,
+				F016EB7E20C527B20001C55D /* UpperWestRestaurantFilter.swift */,
+				F016EB7C20C526530001C55D /* UpperWestRestaurant.swift */,
+				F000EC9F2105C3D200AF9FF3 /* UpperWestRestaurantCate.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		F0E2B9F520C6699300240324 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B9F020C664E300240324 /* UpperEastRestaurantDetail2.swift */,
+				F0B995FF20887F3B00D94361 /* UpperEastRestaurant.swift */,
+				F0F78C1E2106FCB20061FCF2 /* UpperEastRestaurantCate.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		F0EFAAFB206E13C3005C0271 /* upperwest */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B9F420C6696900240324 /* Restaurant */,
+				F0E2B9F320C6687F00240324 /* TA */,
+				F063FF3C20BFDDC9004D8044 /* GoogleMapDetailCell */,
+				F0121205209AEC9500E96739 /* TAtableViewCell */,
+				F0EFAAFC206E13DD005C0271 /* UpperWest.storyboard */,
+				F0EFAB00206E145A005C0271 /* UpperWestFirst.swift */,
+			);
+			path = upperwest;
+			sourceTree = "<group>";
+		};
+		F0F78C2221070EA60061FCF2 /* TA */ = {
+			isa = PBXGroup;
+			children = (
+				F05263B120623B4C00846EE7 /* MidtownTA.swift */,
+				F076A7CE206A25CD00654C8E /* MidtownTAcell.swift */,
+				F076A7D0206A269300654C8E /* MidtownTaData.swift */,
+				F05DAD9C20A97127003A3440 /* MidtownTADetail2.swift */,
+			);
+			path = TA;
+			sourceTree = "<group>";
+		};
+		F0F78C2321070F320061FCF2 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				F016EB7A20C521B00001C55D /* MidtownRestaurantDetail.swift */,
+				F000EC9D2105B53B00AF9FF3 /* MidtownRestaurantCate.swift */,
+				F06726A4205FA5F100A5502A /* MidtownRestaurant.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08616B31FDFC117006E4B68 /* NewYorkTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08616DC1FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTour" */;
+			buildPhases = (
+				BAE9E2BBC8E46AA14E20E6F4 /* [CP] Check Pods Manifest.lock */,
+				F08616B01FDFC117006E4B68 /* Sources */,
+				F08616B11FDFC117006E4B68 /* Frameworks */,
+				F08616B21FDFC117006E4B68 /* Resources */,
+				CA87C8B37CDC8DC40CF9A84B /* [CP] Embed Pods Frameworks */,
+				130901E1905EA89F13D13A9B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewYorkTour;
+			productName = NewYorkTour;
+			productReference = F08616B41FDFC117006E4B68 /* NewYorkTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08616C71FDFC117006E4B68 /* NewYorkTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08616DF1FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTourTests" */;
+			buildPhases = (
+				F08616C41FDFC117006E4B68 /* Sources */,
+				F08616C51FDFC117006E4B68 /* Frameworks */,
+				F08616C61FDFC117006E4B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08616CA1FDFC117006E4B68 /* PBXTargetDependency */,
+			);
+			name = NewYorkTourTests;
+			productName = NewYorkTourTests;
+			productReference = F08616C81FDFC117006E4B68 /* NewYorkTourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08616D21FDFC117006E4B68 /* NewYorkTourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08616E21FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTourUITests" */;
+			buildPhases = (
+				F08616CF1FDFC117006E4B68 /* Sources */,
+				F08616D01FDFC117006E4B68 /* Frameworks */,
+				F08616D11FDFC117006E4B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08616D51FDFC117006E4B68 /* PBXTargetDependency */,
+			);
+			name = NewYorkTourUITests;
+			productName = NewYorkTourUITests;
+			productReference = F08616D31FDFC117006E4B68 /* NewYorkTourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08616AC1FDFC117006E4B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = taewook;
+				TargetAttributes = {
+					F08616B31FDFC117006E4B68 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F08616C71FDFC117006E4B68 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F08616B31FDFC117006E4B68;
+					};
+					F08616D21FDFC117006E4B68 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F08616B31FDFC117006E4B68;
+					};
+				};
+			};
+			buildConfigurationList = F08616AF1FDFC117006E4B68 /* Build configuration list for PBXProject "NewYorkTour" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08616AB1FDFC117006E4B68;
+			productRefGroup = F08616B51FDFC117006E4B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08616B31FDFC117006E4B68 /* NewYorkTour */,
+				F08616C71FDFC117006E4B68 /* NewYorkTourTests */,
+				F08616D21FDFC117006E4B68 /* NewYorkTourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08616B21FDFC117006E4B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CCA51E207DDCEC0092DB28 /* UpperWest.png in Resources */,
+				F08616C21FDFC117006E4B68 /* LaunchScreen.storyboard in Resources */,
+				F001767E1FFF66040078C6C5 /* test02.jpeg in Resources */,
+				F09344442101CA2F00D86B64 /* ApiKeys.plist in Resources */,
+				F0B76A292080A1AA00D30031 /* LowerManhattan.png in Resources */,
+				F07BB09A201B03BE0085C53F /* GoogleService-Info.plist in Resources */,
+				F00176771FFF5FE00078C6C5 /* IMG_7497.JPG in Resources */,
+				F07D7FA2207CAB170020FD09 /* Uppereast.jpg in Resources */,
+				F071DE7F2063964F00F4AF6D /* IMG_6650.JPG in Resources */,
+				F06726A1205FA47700A5502A /* MidtownStoryboard.storyboard in Resources */,
+				F00176791FFF5FE80078C6C5 /* IMG_5022.JPG in Resources */,
+				F0B76A272080A1A500D30031 /* Midtown.png in Resources */,
+				F04A7E632077530D00EC90E5 /* IMG_6512.JPG in Resources */,
+				F05D54222074A8DF00F9E9E1 /* UpperEast.storyboard in Resources */,
+				F0860DC41FE646A8007A3B66 /* LowerManhattan.storyboard in Resources */,
+				F005F26B20AABC3400DFE29C /* LowerManhattanNight.JPG in Resources */,
+				F08616BF1FDFC117006E4B68 /* Assets.xcassets in Resources */,
+				F001767C1FFF64D60078C6C5 /* test01.png in Resources */,
+				F0EFAAFD206E13DD005C0271 /* UpperWest.storyboard in Resources */,
+				F005F26D20AABC8B00DFE29C /* MidtownNight.JPG in Resources */,
+				F0DF70CF20F796DF0028EC14 /* GoogleService-Info.plist in Resources */,
+				F08616BD1FDFC117006E4B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616C61FDFC117006E4B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616D11FDFC117006E4B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130901E1905EA89F13D13A9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE9E2BBC8E46AA14E20E6F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYorkTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA87C8B37CDC8DC40CF9A84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewYorkTour/Pods-NewYorkTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08616B01FDFC117006E4B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A92B6D20872F8400EF80A1 /* UpperEastTouristAttractionData.swift in Sources */,
+				F07D7F9C207C86040020FD09 /* FirstViewLayout.swift in Sources */,
+				F03C4F7520A1721700B8279D /* TAinfomap.swift in Sources */,
+				F0812D33209D96AA003CC9FA /* TAnamecell.swift in Sources */,
+				F0EFAB07206E1817005C0271 /* UpperwestTaData.swift in Sources */,
+				F0728B432085D0C900AE22D2 /* ContainerVC1.swift in Sources */,
+				F000EC9E2105B53B00AF9FF3 /* MidtownRestaurantCate.swift in Sources */,
+				F01F157F1FF630EE00556EDB /* LowerManhattanFirst.swift in Sources */,
+				F02F1A7720C127EF00264ED3 /* TADetailPhoneCell.swift in Sources */,
+				F09344422101CA0700D86B64 /* ApiKeys.swift in Sources */,
+				F06726A5205FA5F100A5502A /* MidtownRestaurant.swift in Sources */,
+				F0CCA526207DE32D0092DB28 /* UpperEastTouristAttraction.swift in Sources */,
+				F0BCFF3020C52E9F000E6FFF /* UpperWestRestaurantDetail.swift in Sources */,
+				F0FA220020BBDC2C001E30DB /* LowerManhattanRestaurant.swift in Sources */,
+				F02F1A7520C127DF00264ED3 /* TADetailWebsiteCell.swift in Sources */,
+				F0B996022088805100D94361 /* UpperEastCell.swift in Sources */,
+				F05D54242074A8FC00F9E9E1 /* UpperEastFirst.swift in Sources */,
+				F0D10DB520BE825D00A1333F /* GooglePlaceCell.swift in Sources */,
+				F0BC3B32214BA2B700AA7034 /* WeatherCheckVC.swift in Sources */,
+				F000ECA02105C3D200AF9FF3 /* UpperWestRestaurantCate.swift in Sources */,
+				F016EB7D20C526530001C55D /* UpperWestRestaurant.swift in Sources */,
+				F09344402101C67700D86B64 /* Yelp.swift in Sources */,
+				F02F1A7120C122E200264ED3 /* TADetailNameCell.swift in Sources */,
+				F08616BA1FDFC117006E4B68 /* ViewController.swift in Sources */,
+				F067526D20735ABE002AF280 /* ExpandibleHeader.swift in Sources */,
+				F0C0D3E12057BB9A00E93930 /* SwithCell.swift in Sources */,
+				F05263B220623B4C00846EE7 /* MidtownTA.swift in Sources */,
+				F06726A3205FA4B400A5502A /* MidtownFirst.swift in Sources */,
+				F093444C2101CD2E00D86B64 /* Review.swift in Sources */,
+				F02CE87A20A56610001F424F /* UpperwestTAurlCell.swift in Sources */,
+				F02F1A7320C127A200264ED3 /* TADetailImageCell.swift in Sources */,
+				F093444A2101CD0700D86B64 /* Location.swift in Sources */,
+				F08616B81FDFC117006E4B68 /* AppDelegate.swift in Sources */,
+				F07746A220C67DB700C09B14 /* YelpAnnotation.swift in Sources */,
+				F016EB7B20C521B00001C55D /* MidtownRestaurantDetail.swift in Sources */,
+				F093444E2101CD4800D86B64 /* User.swift in Sources */,
+				F0EFAB03206E16C5005C0271 /* UpperwestTaCell.swift in Sources */,
+				F0A92B6B20872F1E00EF80A1 /* UpperEastTouristAttractionCell.swift in Sources */,
+				F093F0CA204A8ACA00FF085A /* Business.swift in Sources */,
+				F0441018204D2CB100B85436 /* BusinessCell.swift in Sources */,
+				F0E2B9F120C664E300240324 /* UpperEastRestaurantDetail2.swift in Sources */,
+				F0121207209AEE0500E96739 /* UpperWestTaDetail.swift in Sources */,
+				F0C0079220B7F5150020DC69 /* LowerManhattanTaDetail.swift in Sources */,
+				F060405220FDCF8E00099B66 /* UpdateChecker.swift in Sources */,
+				F016EB7F20C527B20001C55D /* UpperWestRestaurantFilter.swift in Sources */,
+				F00877332089C35300D57589 /* UpperEastTAdetail.swift in Sources */,
+				F0EFAB01206E145A005C0271 /* UpperWestFirst.swift in Sources */,
+				F0728B452085D55900AE22D2 /* ContainerMain.swift in Sources */,
+				F0870A3220A02F8100EEB6D9 /* TAinfocell.swift in Sources */,
+				F0B9960020887F3B00D94361 /* UpperEastRestaurant.swift in Sources */,
+				F0F78C212107048C0061FCF2 /* LowerManhattanRestaurantCate.swift in Sources */,
+				F0EFAB05206E16E8005C0271 /* UpperwestTa.swift in Sources */,
+				F0E2B9EF20C65E3700240324 /* CheckNetwork.swift in Sources */,
+				F0633E5D20B70AF8000D78C4 /* TAinfomapData.swift in Sources */,
+				F090AA2F2043E6C0007D2B2C /* FoodSelected.swift in Sources */,
+				F06467AD20BD364A00CA5415 /* LowerManhattanRestaurantDetail2.swift in Sources */,
+				F0A4570720AD6BC100487ABD /* LowerManhattanTa2.swift in Sources */,
+				F0121209209AEECE00E96739 /* TAnameInfoImageCell.swift in Sources */,
+				F0A4570920AD6D2200487ABD /* LowerManhattanTaCell2.swift in Sources */,
+				F0ADDB64214F852B005C056F /* GetWeather.swift in Sources */,
+				F00877392089CB6500D57589 /* UpperEastTAdetailMap.swift in Sources */,
+				F076A7CF206A25CD00654C8E /* MidtownTAcell.swift in Sources */,
+				F0B76A2520809DE400D30031 /* ContainerVC.swift in Sources */,
+				F0E2B9ED20C65BC700240324 /* MainViewController.swift in Sources */,
+				F02F1A7920C1281D00264ED3 /* TADetailMapCell.swift in Sources */,
+				F0F78C1F2106FCB20061FCF2 /* UpperEastRestaurantCate.swift in Sources */,
+				F0AB1D5320AC0BE30027DE38 /* TAinfoOpeningHour.swift in Sources */,
+				F0AC991C1FDFCB650089092F /* Mindtown.swift in Sources */,
+				F05DAD9D20A97127003A3440 /* MidtownTADetail2.swift in Sources */,
+				F067526B207359E0002AF280 /* AdminHeaderData.swift in Sources */,
+				F000EC9C2105A79900AF9FF3 /* Category.swift in Sources */,
+				F076A7D1206A269300654C8E /* MidtownTaData.swift in Sources */,
+				F07D7F9E207C913E0020FD09 /* MainFirst.swift in Sources */,
+				F07E679B20A42CDC007DDF80 /* UppperwestTADetailCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616C41FDFC117006E4B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08616CD1FDFC117006E4B68 /* NewYorkTourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08616CF1FDFC117006E4B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08616D81FDFC117006E4B68 /* NewYorkTourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08616CA1FDFC117006E4B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08616B31FDFC117006E4B68 /* NewYorkTour */;
+			targetProxy = F08616C91FDFC117006E4B68 /* PBXContainerItemProxy */;
+		};
+		F08616D51FDFC117006E4B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08616B31FDFC117006E4B68 /* NewYorkTour */;
+			targetProxy = F08616D41FDFC117006E4B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F08616BB1FDFC117006E4B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08616BC1FDFC117006E4B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F08616C01FDFC117006E4B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08616C11FDFC117006E4B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F08616DA1FDFC117006E4B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taewook Noh (N94DFK3A7H)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F08616DB1FDFC117006E4B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taewook Noh (MAVM9UU3WG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F08616DD1FDFC117006E4B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FDA1C8F48EF5E1E82DD9AD /* Pods-NewYorkTour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewYorkTour/NewYorkTour.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVM9UU3WG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YelpAPI\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/leveldb-library\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+				);
+				INFOPLIST_FILE = NewYorkTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F08616DE1FDFC117006E4B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EDC1E2C0CDF66C93A238DE /* Pods-NewYorkTour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewYorkTour/NewYorkTour.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVM9UU3WG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YelpAPI\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/leveldb-library\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+				);
+				INFOPLIST_FILE = NewYorkTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F08616E01FDFC117006E4B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewYorkTour.app/NewYorkTour";
+			};
+			name = Debug;
+		};
+		F08616E11FDFC117006E4B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewYorkTour.app/NewYorkTour";
+			};
+			name = Release;
+		};
+		F08616E31FDFC117006E4B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewYorkTour;
+			};
+			name = Debug;
+		};
+		F08616E41FDFC117006E4B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewook.NewYorkTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewYorkTour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08616AF1FDFC117006E4B68 /* Build configuration list for PBXProject "NewYorkTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08616DA1FDFC117006E4B68 /* Debug */,
+				F08616DB1FDFC117006E4B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08616DC1FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08616DD1FDFC117006E4B68 /* Debug */,
+				F08616DE1FDFC117006E4B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08616DF1FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08616E01FDFC117006E4B68 /* Debug */,
+				F08616E11FDFC117006E4B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08616E21FDFC117006E4B68 /* Build configuration list for PBXNativeTarget "NewYorkTourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08616E31FDFC117006E4B68 /* Debug */,
+				F08616E41FDFC117006E4B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08616AC1FDFC117006E4B68 /* Project object */;
+}

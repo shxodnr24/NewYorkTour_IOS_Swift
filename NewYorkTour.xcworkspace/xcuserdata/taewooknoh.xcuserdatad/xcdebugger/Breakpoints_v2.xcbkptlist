@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UpperEast/CascadingTableDelegate/RowTableDelegates/DestinationInfoListRowDelegate.swift"
+            timestampString = "547369147.552531"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTour.DestinationInfoListRowDelegate.__ivar_destroyer"
+                  moduleName = "NewYorkTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taewooknoh/Desktop/Swift/NewYorkTour/UpperEast/CascadingTableDelegate/RowTableDelegates/DestinationInfoListRowDelegate.swift"
+                  timestampString = "546417241.062938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTour.DestinationInfoListRowDelegate.__deallocating_deinit"
+                  moduleName = "NewYorkTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taewooknoh/Desktop/Swift/NewYorkTour/UpperEast/CascadingTableDelegate/RowTableDelegates/DestinationInfoListRowDelegate.swift"
+                  timestampString = "546417241.076326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTour.DestinationInfoListRowDelegate.__allocating_init(index: Swift.Int, childDelegates: Swift.Array&lt;CascadingTableDelegate.CascadingTableDelegate&gt;) -&gt; NewYorkTour.DestinationInfoListRowDelegate"
+                  moduleName = "NewYorkTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taewooknoh/Desktop/Swift/NewYorkTour/UpperEast/CascadingTableDelegate/RowTableDelegates/DestinationInfoListRowDelegate.swift"
+                  timestampString = "546417241.07796"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTour.DestinationInfoListRowDelegate.init(index: Swift.Int, childDelegates: Swift.Array&lt;CascadingTableDelegate.CascadingTableDelegate&gt;) -&gt; NewYorkTour.DestinationInfoListRowDelegate"
+                  moduleName = "NewYorkTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taewooknoh/Desktop/Swift/NewYorkTour/UpperEast/CascadingTableDelegate/RowTableDelegates/DestinationInfoListRowDelegate.swift"
+                  timestampString = "546417241.079818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
