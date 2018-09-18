@@ -55,37 +55,18 @@ class WeatherCheckVC: UIViewController {
     override func viewDidLoad() {
          super.viewDidLoad()
         
-        text1.text = "helo"
-        print("asdfsadf")
-        
-        let baseURL = "https://api.openweathermap.org/data/2.5/weather?q=New York,US&APPID=e33357cbab470f07510ff10a287949e1"
-        // let apiKey = ""
-        guard let url = URL(string: baseURL) else {return}
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
+    let weatherGetter = GetWeather()
+       print("하하", weatherGetter.getWeather())
+      
+            
+        GetWeather.shread.getWeather() { (ok, data, error) in
+            
+            
+        }
+     
        
-        URLSession.shared.dataTask(with: request) { (data, response, error) in
-            if error != nil {
-                print(error!.localizedDescription)
-            }
-            
-            guard let data = data else {return}
-            
-            do {
-                let articleData = try JSONDecoder().decode([ServerResponse].self, from: data)
-             
-                
-                DispatchQueue.main.async {
-                    self.text1.text = articleData[0].main
-                      print(articleData[0].temp_max)
-                }
-            } catch let jsonError {
-                print(jsonError)
-            }
-            
-          
-            
-            }.resume()
+   
+    
         }
 
     

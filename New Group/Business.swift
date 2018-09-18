@@ -180,7 +180,7 @@ class Business: NSObject, MKAnnotation {
         print("➡️ Getting reviews for business \(self.name)")
         
         var arrayOfReviews: [Review] = []
-        let yelpAPI = "bRPG2J3MvYrL7UmZpart9dcFSsruQfwQP_4LhmHZrVZPSroLDgizkGBDyiJbKT9KqlN41RB46LldHWMcPL-dlfgfLOJkGIYfc4MMM03UsR7GslhyGguS58zLNgmVWnYx"
+        let yelpAPI = "press your API KEY"
         //        let accessToken = valueForAPIKey(named: "YELP_API_ACCESS_TOKEN")
         
         let link = "https://api.yelp.com/v3/businesses/\(self.id)/reviews"
@@ -261,7 +261,7 @@ class Business: NSObject, MKAnnotation {
         //        UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
         var arrayOfBusinesses: [Business] = []
-        let yelpAPI = "bRPG2J3MvYrL7UmZpart9dcFSsruQfwQP_4LhmHZrVZPSroLDgizkGBDyiJbKT9KqlN41RB46LldHWMcPL-dlfgfLOJkGIYfc4MMM03UsR7GslhyGguS58zLNgmVWnYx"
+        let yelpAPI = "Put your API KEY"
         //        let accessToken = valueForAPIKey(named: "YELP_API_ACCESS_TOKEN")
         
         //if radius return 0 results then increase the radius
