@@ -36,8 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADInterstitialDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
        
-        GMSServices.provideAPIKey("AIzaSyDX0ykgRnKXApYk5QLgiVBhamijKoVwzy8")
-        GMSPlacesClient.provideAPIKey("AIzaSyBTfFljwKFUlRp9wlGpZJ2K9r38JCuXkkw")
+        GMSServices.provideAPIKey("Put your API KEY")
+        GMSPlacesClient.provideAPIKey("Put your API KEY")
         // Override point for customization after application launch.
         GADMobileAds.configure(withApplicationID: "ca-app-pub-4456961390591909/9717581265")
     
